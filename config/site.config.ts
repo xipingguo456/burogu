@@ -1,7 +1,7 @@
 const SITE_CONFIG = {
-	siteName: "Hyoban's Blog",
+	siteName: "Blog",
 	siteLanguage: "zh-Hans",
-	description: "Hyoban 的个人博客，胡乱写些东西",
+	description: "个人博客，notion同步",
 	avatarPath: "/hyoban.png",
 	faviconPath: "/favicon.svg",
 	links: [
@@ -23,11 +23,11 @@ const SITE_CONFIG = {
 		dark: "nord",
 	},
 	siteUrl: "https://hyoban.cc",
-	authorName: "Hyoban",
-	authorLink: "https://hyoban.cc",
-	authorEmail: "hi@hyoban.cc",
-	timeZone: "Asia/Shanghai",
-	source: "local",
+	//authorName: "Hyoban",
+	//authorLink: "https://hyoban.cc",
+	//authorEmail: "hi@hyoban.cc",
+	timeZone: "Asia/Beijing",
+	source: "notion",
 } as const
 
 export default SITE_CONFIG
